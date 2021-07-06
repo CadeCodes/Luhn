@@ -2,10 +2,12 @@
 A Python port of a classic algorithm.
 ## What is the point?
 - Nowadays, online vendors have to pay everytime they run a credit card through 
-their backend payment service such as PayPal.
+their backend payment service such as PayPal. When card number's are invalid, it wastes the 
+companies money because they had to pay to run the card, and did not gain any revenue since
+there was no purchase. 
 - To prevent trolls and malicious users from sending random numbers into the sites
 checkout and wasting the companies money, companies usually use an algorithm 
-such as the Luhn Algorithm to check a credit card before they run it with their provider.
+such as the Luhn Algorithm to check a credit card's validity before they run it with their provider.
 - The algorithm will never say a valid credit card is invalid, although there are ways to 
 trick the algorithm  such as using a number like **12345674**.
 
